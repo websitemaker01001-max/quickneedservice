@@ -203,7 +203,6 @@ function openJoin(){
  <div class="field"><label>Service *</label><select name="service" required><option value="">Choose service</option>${SERVICES.map(x=>`<option>${x[1]}</option>`).join("")}</select></div>
  <div class="field"><label>Area *</label><select name="area" required><option value="">Choose area</option>${AREAS.map(x=>`<option>${x}</option>`).join("")}</select></div>
  <div class="field"><label>Experience</label><input name="experience" placeholder="e.g. 5 years"></div>
- <div class="field"><label>Starting price</label><input name="starting_price" placeholder="e.g. ₹199"></div>
  <div class="field full"><label>Description</label><textarea name="description" rows="3" placeholder="What services do you provide?"></textarea></div>
  <label class="check full"><input type="checkbox" required> I agree to Quickneed's Terms and Privacy Policy.</label>
  <div class="submitRow full"><button type="button" class="ghost" onclick="closeModal()">Cancel</button><button class="primary">Submit for Approval</button></div>
